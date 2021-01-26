@@ -13,6 +13,66 @@
   }
 }
 
+nav{
+  padding: 100px;
+}
+
+.navbar{
+  display: flex;
+
+}
+.menu{
+  padding-left: 20px;
+}
+
+.menu ul li{
+  padding-left: 40px;
+}
+.cabecera{
+  padding-top: 50px;
+  padding-bottom:200px;
+  
+}
+.body{
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.imagenPrincipal{
+ /* background-image: url("./imagenes/Header Final.jpg");*/
+  padding-left: 0%;
+  padding-right: 0%;
+  width: 100%;
+  height: 700px;
+  position: relative;
+ 
+}
+
+.cabecera{
+  position:absolute;
+  right: 10%;
+  left: 10%;
+  top: 20%;
+}
+
+.textoPrincipal{
+ text-align: left;
+  color: white;
+}
+
+.separador{
+  width: 20%;
+  height:2px;
+  border-width:0;
+  color:rgb(201, 128, 128);
+  background-color:rgb(221, 158, 158)
+}
+.parrafoPrincipal{
+  color: white;
+  text-align: left;
+  font-size: 30px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,7 +87,20 @@
 .App-link {
   color: #61dafb;
 }
+.contenidoBlog{
+  padding-top: 20px;
+  padding-right:10%;
+  padding-left:10%;
+}
 
+.tarjetas{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.col card{
+  width: 18rem;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
